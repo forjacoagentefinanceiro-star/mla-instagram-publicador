@@ -1,0 +1,7 @@
+.env
+agenda.log
+agenda.backup-*.json
+agenda_v2_pronta.json
+ADM/
+media/
+__pycache__/
