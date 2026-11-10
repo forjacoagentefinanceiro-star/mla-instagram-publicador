@@ -2,7 +2,8 @@ name: Publicar Instagram
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # a cada 15 min das 10h às 20h59 (Brasília = UTC-3); fora disso não roda, para caber no limite grátis do GitHub
+    - cron: "*/15 13-23 * * *"
   workflow_dispatch:
     inputs:
       teste_hospedagem:

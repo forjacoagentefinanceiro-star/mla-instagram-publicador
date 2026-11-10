@@ -52,6 +52,10 @@ def main():
             print(f"{it['when']}  {it['type']:<6} {it.get('status','pendente'):<10} {it['id']}")
         return
     dry = "--dry-run" in sys.argv
+    if not dry and (ROOT / "NUVEM_ATIVA").exists():
+        # a publicação roda no GitHub Actions; este PC não publica, para não duplicar posts
+        log("NUVEM_ATIVA presente: o GitHub Actions publica. Nada a fazer neste PC.")
+        return
     changed = False
     for it in items:
         if it.get("status", "pendente") != "pendente":
