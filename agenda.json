@@ -340,7 +340,8 @@
       "media/v2/sem_qua3.jpg"
     ],
     "caption": "",
-    "status": "pendente"
+    "status": "erro",
+    "resultado": "lish_instagram.py\", line 107, in run\n    container = post(f\"{IG_ID}/media\", {\"media_type\": \"STORIES\", \"image_url\": host_image(p)})[\"id\"]\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/mla-instagram-publicador/mla-instagram-publicador/scripts/publish_instagram.py\", line 59, in post\n    raise RuntimeError(f\"{endpoint}: {res}\")\nRuntimeError: ﻿17841472500941054/media: {'error': {'message': 'Invalid OAuth access token - Cannot parse access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AIGa-ggzTpmJ1XW8PBfiGQd'}}"
   },
   {
     "id": "reel-usos-real",
