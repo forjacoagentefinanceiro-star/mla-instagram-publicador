@@ -15,6 +15,7 @@ AGENDA = ROOT / "agenda.json"
 LOG = ROOT / "agenda.log"
 PUBLISH = ROOT / "scripts" / "publish_instagram.py"
 MAX_ATRASO = timedelta(hours=12)  # se o PC ficou desligado mais que isso, nao publica fora de hora
+MAX_ATRASO_REEL = timedelta(hours=24)  # reel e post atrasado ainda vale; story velho nao (some em 24 h e o texto fica errado)
 
 
 def log(msg):
@@ -63,7 +64,7 @@ def main():
         when = datetime.fromisoformat(it["when"])
         if when > now:
             continue
-        if now - when > MAX_ATRASO:
+        if now - when > (MAX_ATRASO if it["type"] == "story" else MAX_ATRASO_REEL):
             if dry:
                 log(f"[dry-run] marcaria como perdido: {it['id']}")
                 continue
