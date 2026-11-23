@@ -658,16 +658,6 @@
     "status": "pendente"
   },
   {
-    "id": "reel-atend",
-    "when": "2026-11-30T17:00:00",
-    "type": "reel",
-    "files": [
-      "media/v2/reel_atend.mp4"
-    ],
-    "caption": "Como funciona o atendimento pelo WhatsApp 📲\n\n1️⃣ Você chama e diz o tamanho e o uso\n2️⃣ Recebe preço, foto e vídeo da unidade\n3️⃣ Combina a visita ou a entrega\n\nSimples assim. Manda mensagem e a gente responde. 👇\n\n📌 Salva este Reel e manda para quem está procurando container!\n\n💬 Chame no WhatsApp pelo link da bio: (47) 98917-3801. Pronta entrega em Itajaí/SC. Frete sob consulta. Valor final depende do tipo e do ano.\n\n#container #containerusado #itajai #atendimento #whatsapp",
-    "status": "pendente"
-  },
-  {
     "id": "story-set-ter-01-12",
     "when": "2026-12-01T12:30:00",
     "type": "story",
@@ -759,6 +749,16 @@
       "media/v2/prox_res301.jpg"
     ],
     "caption": "",
+    "status": "pendente"
+  },
+  {
+    "id": "reel-mila-visita",
+    "when": "2026-11-30T17:00:00",
+    "type": "reel",
+    "files": [
+      "media/v2/reel_mila_visita.mp4"
+    ],
+    "caption": "A Mila responde: posso visitar o pátio antes de comprar? 🦺📦\n\nPode, sim! É só chamar no WhatsApp e combinar o dia e o horário.\n\nAqui você vê o container pessoalmente, confere o estado e tira todas as dúvidas.\n\n📍 Av. Governador Adolfo Konder, 2600, São Vicente, Itajaí/SC\n\nQual dúvida você quer que a Mila responda na próxima? Conta nos comentários 👇\n\n💬 Chame no WhatsApp pelo link da bio: (47) 98917-3801. Pronta entrega em Itajaí/SC. Frete sob consulta. Valor final depende do tipo e do ano.\n\n🤖 A Mila é uma personagem virtual criada com inteligência artificial.\n🎵 Música: \"Carefree\", de Kevin MacLeod (incompetech.com), licença CC BY 4.0.\n\n#container #containerusado #itajai #visitaaopatio #amilaresponde",
     "status": "pendente"
   }
 ]
